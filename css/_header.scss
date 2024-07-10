@@ -1,0 +1,122 @@
+header {
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+
+    a {
+      padding: 0.9% 0.8%;
+      color: black;
+    }
+
+    a:hover {
+      background-color: #dbdbdb;
+    }
+  }
+
+  .logo-holder {
+    display: flex;
+    padding: 0 21%;
+    justify-content: space-between;
+    border-bottom: 1px solid #efefef;
+
+    a {
+      margin: 1.5% 0;
+      color: black;
+    }
+
+    .contact-holder {
+      display: flex;
+      width: 30%;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        font-size: 1.1rem;
+        color: black;
+      }
+
+      a:hover {
+        color: rgb(214, 0, 143);
+      }
+
+      a:active {
+        color: rgb(214, 0, 143);
+      }
+
+      button {
+        border: 2px solid #f13c6e;
+        background-color: white;
+        border-radius: 40px;
+        padding: 3% 17%;
+      }
+
+      button:hover {
+        background-color: #f13c6e;
+        color: white;
+      }
+    }
+  }
+
+  menu {
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 1.5% 1.1%;
+      font-size: 1.1rem;
+      color: black;
+    }
+
+    a:hover {
+      background-color: #dbdbdb;
+    }
+  }
+
+
+  .add-holder {
+    display: flex;
+    flex-direction: column;
+    height: 604px;
+    padding: 10% 21%;
+    background-image: url("../img/black_chear.png");
+    background-position: center;
+    color: #ffffff;
+
+    h2 {
+      font-size: 3.3rem;
+      font-weight: 700;
+      line-height: 56.25px;
+      margin-bottom: 3.7%;
+    }
+
+    p {
+      width: 23%;
+      line-height: 20px;
+      margin-bottom: 2%;
+    }
+
+    a {
+      border: 2px solid #ffffff;
+      background-color: #f13c6e;
+      border-radius: 40px;
+      width: 15.5%;
+      padding: 0.8% 0;
+      color: #ffffff;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    a:hover {
+      background-color: #fff;
+      color: #f13c6e;
+    }
+  }
+  a:hover {
+    color: rgb(214, 0, 143);
+  }
+
+  a:active {
+    color: rgb(214, 0, 143);
+  }
+}

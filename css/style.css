@@ -1,0 +1,359 @@
+html {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1rem;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}
+header nav a {
+  padding: 0.9% 0.8%;
+  color: black;
+}
+header nav a:hover {
+  background-color: #dbdbdb;
+}
+header .logo-holder {
+  display: flex;
+  padding: 0 21%;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+header .logo-holder a {
+  margin: 1.5% 0;
+  color: black;
+}
+header .logo-holder .contact-holder {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo-holder .contact-holder a {
+  font-size: 1.1rem;
+  color: black;
+}
+header .logo-holder .contact-holder a:hover {
+  color: rgb(214, 0, 143);
+}
+header .logo-holder .contact-holder a:active {
+  color: rgb(214, 0, 143);
+}
+header .logo-holder .contact-holder button {
+  border: 2px solid #f13c6e;
+  background-color: white;
+  border-radius: 40px;
+  padding: 3% 17%;
+}
+header .logo-holder .contact-holder button:hover {
+  background-color: #f13c6e;
+  color: white;
+}
+header menu {
+  display: flex;
+  justify-content: center;
+}
+header menu a {
+  padding: 1.5% 1.1%;
+  font-size: 1.1rem;
+  color: black;
+}
+header menu a:hover {
+  background-color: #dbdbdb;
+}
+header .add-holder {
+  display: flex;
+  flex-direction: column;
+  height: 604px;
+  padding: 10% 21%;
+  background-image: url("../img/black_chear.png");
+  background-position: center;
+  color: #ffffff;
+}
+header .add-holder h2 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 56.25px;
+  margin-bottom: 3.7%;
+}
+header .add-holder p {
+  width: 23%;
+  line-height: 20px;
+  margin-bottom: 2%;
+}
+header .add-holder a {
+  border: 2px solid #ffffff;
+  background-color: #f13c6e;
+  border-radius: 40px;
+  width: 15.5%;
+  padding: 0.8% 0;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+header .add-holder a:hover {
+  background-color: #fff;
+  color: #f13c6e;
+}
+header a:hover {
+  color: rgb(214, 0, 143);
+}
+header a:active {
+  color: rgb(214, 0, 143);
+}
+
+main {
+  padding: 0 21%;
+  background-color: #efefef;
+}
+main .special,
+main .viewed {
+  padding-top: 6.5%;
+}
+main .special h2,
+main .viewed h2 {
+  font-size: 1.7rem;
+  margin-bottom: 3.5%;
+}
+main .special .cards-holder,
+main .viewed .cards-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 2.5%;
+}
+main .special .cards-holder .card,
+main .viewed .cards-holder .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 10% 18%;
+}
+main .special .cards-holder .card img,
+main .viewed .cards-holder .card img {
+  width: 75%;
+}
+main .special .cards-holder .card p,
+main .viewed .cards-holder .card p {
+  margin: 10% 0;
+  line-height: 19.69px;
+  text-align: center;
+}
+main .special .cards-holder .card .cost,
+main .viewed .cards-holder .card .cost {
+  margin: 2% 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+main .special .cards-holder .card a,
+main .viewed .cards-holder .card a {
+  margin-top: 6%;
+  background-color: #f13c6e;
+  border-radius: 40px;
+  padding: 5% 5.5%;
+  width: 80%;
+  color: #ffffff;
+  text-align: center;
+}
+main .special .cards-holder .card a:hover,
+main .viewed .cards-holder .card a:hover {
+  background-color: #b8db66;
+  color: #ffffff;
+}
+main .contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 2.7%;
+  margin: 9% 0;
+}
+main .contacts .client-holder,
+main .contacts .shop-holder {
+  display: flex;
+  justify-content: space-between;
+  padding: 7% 8%;
+  background-color: #f13c6e;
+  color: #fff;
+}
+main .contacts .client-holder h3,
+main .contacts .shop-holder h3 {
+  font-size: 1.3rem;
+}
+main .contacts .client-holder p,
+main .contacts .shop-holder p {
+  margin: 6% 0;
+  width: 55%;
+  line-height: 19.69px;
+}
+main .contacts .client-holder input,
+main .contacts .client-holder a,
+main .contacts .shop-holder input,
+main .contacts .shop-holder a {
+  border-radius: 40px;
+  padding: 4% 9%;
+  margin-top: 3%;
+}
+main .contacts .client-holder a,
+main .contacts .shop-holder a {
+  display: block;
+  width: 75%;
+  background-color: #f13c6e;
+  border: 2px solid #fff;
+  padding: 3% 0;
+  margin-top: 12%;
+  color: #fff;
+  text-align: center;
+}
+main .contacts .client-holder a:hover,
+main .contacts .shop-holder a:hover {
+  background-color: #fff;
+  color: #f13c6e;
+}
+main .contacts .client-holder .img-holder,
+main .contacts .shop-holder .img-holder {
+  width: 30%;
+}
+main .contacts .client-holder .img-holder img,
+main .contacts .shop-holder .img-holder img {
+  width: 100%;
+}
+main .contacts .shop-holder .img-holder {
+  width: 42%;
+  padding: 3% 0;
+}
+main .contacts .shop-holder .img-holder img {
+  width: 100%;
+}
+main .collaboration {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+main .collaboration div {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #efefef;
+}
+main .collaboration div img {
+  padding: 12%;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+main .collaboration div:hover {
+  background-color: #e7e7e7;
+}
+main .viewed {
+  padding-bottom: 7.3%;
+}
+
+footer .services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 3.5% 0 1.2% 0;
+  gap: 0 3%;
+  padding: 0 21% 1% 21%;
+  border-bottom: 1px solid #efefef;
+}
+footer .services h3 {
+  width: 50%;
+  padding-bottom: 10%;
+}
+footer .services ul {
+  border-top: 1px solid #efefef;
+  padding: 11% 0;
+}
+footer .services ul li {
+  padding: 2% 0;
+}
+footer .services ul li a {
+  color: black;
+}
+footer .services ul li a:hover,
+footer .services ul li a:active {
+  color: rgb(214, 0, 143);
+}
+footer .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 21% 2% 21%;
+}
+footer .social .social-logos {
+  display: flex;
+  width: 40%;
+}
+footer .social .social-logos div {
+  display: grid;
+}
+footer .social .social-logos a {
+  border: 2px solid #f13c6e;
+  margin-right: 4.8%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+footer .social .social-logos a img {
+  width: 20px;
+  vertical-align: middle;
+}
+footer .social .contact-holder {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .social .contact-holder a {
+  font-size: 1.1rem;
+  color: black;
+}
+footer .social .contact-holder a:hover {
+  color: rgb(214, 0, 143);
+}
+footer .social .contact-holder a:active {
+  color: rgb(214, 0, 143);
+}
+footer .social .contact-holder button {
+  border: 2px solid #f13c6e;
+  background-color: white;
+  border-radius: 40px;
+  padding: 3% 17%;
+}
+footer .social .contact-holder button:hover {
+  background-color: #f13c6e;
+  color: white;
+}
+footer .history {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efefef;
+  padding: 0 21%;
+}
+footer .history p {
+  padding: 2% 0;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=style.css.map */

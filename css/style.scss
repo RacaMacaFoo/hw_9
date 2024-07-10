@@ -1,0 +1,29 @@
+html {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+} 
+
+@import "header";
+@import "main";
+@import "footer";
